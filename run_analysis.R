@@ -80,7 +80,6 @@ tidydata2 <- tidydata %>%
              group_by(activity, subject) %>%
              summarise(across(everything(), list(mean)))
 
-write.table(tidydata2, file = "/Users/natdeacon/N. Deacon Getting and Cleaning Data/step5data.txt", row.name = FALSE)
 
 
 

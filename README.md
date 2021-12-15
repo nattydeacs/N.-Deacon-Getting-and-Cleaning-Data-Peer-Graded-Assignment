@@ -12,6 +12,6 @@ for each step mentioned. The resulteding datafram is stored in a varibale called
 Additionally, the script extracts the mean for each variable, grouping by activity and subject, and writes the
 resulting dataframe into a variable called "tidydata2"
 
-Details about the variables can be found in "features_info.txt" in the UCI HAR DATASET folder. 
+A codebook describing the variables can be found in "features_info.txt" in the UCI HAR DATASET folder. 
 Details about the experiment can be found in the "README.txt" document in the same folder.
 
